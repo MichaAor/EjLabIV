@@ -1,0 +1,25 @@
+* {
+	text-align: center;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header { height: 100px; background-color: #8397f0; float: left; }
+
+nav { height: 50px; background-color: #8397f0; float: left; }
+
+aside { width: 295px; background-color: #8397f0; float: left; height: 400px; margin-right: 5px; }
+
+section	{ width: 695px; background-color: #8397f0; float: left; height: 400px; margin-left: 5px; padding: 20px; }
+
+footer { height: 100px; background-color: #8397f0; float: left; }
+
+article { height: 300px; background-color: #5f79ec; padding: 20px; }
+
+details { height: 200px; background-color: #2f45a5; padding: 20px }

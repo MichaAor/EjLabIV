@@ -1,0 +1,22 @@
+[
+    {
+        "userName": "juan@azar.com",
+        "password": "azar123456"
+    },
+    {
+        "userName": "seba@soler.com",
+        "password": "1234sebastian"
+    },
+    {
+        "userName": "elena@perez.com",
+        "password": "eleperez10"
+    },
+    {
+        "userName": "flor@hernandez.com",
+        "password": "f123456789"
+    },
+    {
+        "userName": "student@utn.com",
+        "password": "pass12345"
+    }
+]

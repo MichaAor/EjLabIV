@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!--define que el documento es de tipo HTML5-->
+
+<html>
+<!--   es el elemento raíz de una página HTML-->
+
+<head>
+    <!--contiene meta información sobre el documento, define el encabezado para un documento o sección-->
+    <title>
+        LABORATORIO IV 2019
+    </title>
+    <!--especifica el título del documento (title bar)-->
+    <a href="style.css"></a> <!--especifica estilos para un documento-->
+</head>
+
+
+<body style="background-color: rgb(128, 125, 125)"> <!-- posee el contenido visible de la página-->
+    
+    <nav style="font-size: 22px"><!-- define un contenedor para links de navegación (ej.: menú)-->
+        <div style="text-align:center">
+            <div style="background-color:rgb(0, 162, 173)">
+                <h2> BIENVENIDOS A LABORATORIO IV </h2>
+            </div>
+            <strong style="font-size: 22px">Software necesarios para trabajar en esta materia</strong>
+        </div>
+        <ul style="font-size: 22px">
+            <li>
+                <a href="http://www.wampserver.com/en/"> WAMP</a>
+            </li>
+            <li>
+                <a href="https://www.apachefriends.org/"> XAMPP </a>
+            </li>
+            <br>
+        </ul>
+        </div>
+    </nav>
+    
+    <div style="text-align:center">
+        <div style="color: gainsboro">
+            <strong style="font-size: 22px">A continuacion veremos algunos temas a tener en cuenta a la hora de crear
+                una aplicacion Web</strong>
+            <h1 style="background-color:rgb(0, 162, 173)"> Etiqueta "h1" </h1>
+
+            <p> 
+                H1 es una etiqueta que sirve para colocar la frase que indica el titulo del contenido de una pagina
+                web.Importante en este punto delimitar de forma clara la diferencia entre sitio web y pagina web: un
+                titulo H1 debe hacer referencia a una pagina de tu sitio web, y no al sitio web en general.
+                <br>
+                <!--Con esta etiqueta indicamos un salto de linea-->
+                <br>
+                <strong> Para tener en cuenta:</strong>
+                <br>
+                <li>
+                    1: Si el titular H1 resume en una frase el contenido de la pagina actual, no tiene sentido que en un mismo documento web tengamos varios H1, pues el resumen de tu sitio debe ser uno. Un caso de mal uso relacionado con este hecho son los blogs donde en el listado de los ultimos posts cada uno de ellos
+                    lleva un titular H1: esto no es correcto, y lo adecuado seria que en el listado los titulos fueran
+                    H2 (etiqueta de titulo de menor importancia), y al acceder al post completo ya sí se nos mostrara el
+                    titulo como un H1.
+                </li>
+                <br>
+                <li>
+                    2: Si resume el contenido de una unica pagina, tu sitio web completo debera tener un H1 para cada
+                    uno de los documentos, que resuma el contenido de la misma de la forma mas especifica posible. Un
+                    caso de mal uso para esta norma son aquellos sitios web donde el H1 esta dedicado en todas las
+                    paginas al nombre de la compañia.
+                </li>
+                <br>
+                <li>
+                    3: Como titulo que es, y estando el SEO (es la optimizacion para que tu sitio web salga
+                    organicamente, de forma no paga, dentro de los primeros resultados en buscadores como Google o
+                    Yahoo!) orientado en el fondo al usuario, lo logico es que tu titular H1 aparezca cuanto más arriba
+                    de la pagina mejor, tal cual lo haria el título de una noticia en una web. Google confiere mayor
+                    importancia al contenido situado en el primer tramo de un documento web,y tambien para el usuario es
+                    logico encontrar el H1 en esa posicion.
+                </li>
+                <br>
+                <li>
+                    4: Un H1 no deberia en principio ir enlazado a otros documentos, pues su contenido deberia ser
+                    importante unicamente para el documento que estamos viendo. Si colocamos un enlace en ese H1, vamos
+                    a indicar inconscientemente que la pagina importante para ese titulo es a la que enlazamos, y no la
+                    pagina actual. Desde otros documentos, esta pagina deberia estar enlazada con el mismo texto del H1
+                    para reforzar la importancia de su titular, o variaciones de sus palabras clave para tratar de
+                    posicionar en varios terminos relacionados.
+                </li>
+                <br>
+                <li>
+                    5: El H1 debe mantenerse corto, pues la importancia de las palabras clave que contiene el titular
+                    ira perdiendo fuerza cuanto mas largo sea. Tanto en esta etiqueta como en otras (por ejemplo, la
+                    metaetiqueta title), Google confiere una mayor importancia a las primeras palabras de la frase que a
+                    las ultimas: asegurate de que tu H1 empieza siempre que sea posible por la palabra o palabras claves
+                    principales para ese documento. Puede que esto vaya en contra de un titular de un estilo mas
+                    periodistico, pero es lo ideal para posicionar el documento. Piensa en el contenido de la etiqueta
+                    como una frase que contenga información completa por si misma para definir el contenido del sitio, y
+                    que no necesite de informacion adicional.Además, de nada servira el titular H1 si su titulo no hace
+                    realmente referencia al contenido de esa pagina. Las palabras clave del titular deben aparecer en
+                    varias ocasiones a lo largo del texto de contenido de la pagina.
+                </li>
+                <br>
+
+                <li>
+                    6: El titular H1 puede o no coincidir con la metaetiqueta title del documento HTML. La metaetiqueta
+                    Title tiene una importancia menor que el H1, y se muestra en los resultados de busqueda, por lo que
+                    podemos optimizar mas para SEO el H1, y redactar la metaetiqueta title de tal forma que este mas
+                    destinada a captar la atencion de un humano
+                </li>
+                <br>
+            </p>
+            <!--define un párrafo-->
+
+            <h2 style="background-color:rgb(0, 162, 173)"> Etiqueta "h2" </h2>
+
+            <p>
+                La etiqueta H2 es un elemento similar al H1, que indica titulos de importancia para subsecciones del
+                documento web actual. Por su naturaleza, puede haber varios H2 en un sitio, que indiquen los diferentes
+                titulos de importancia de la pagina en la que nos encontramos. No debemos confundir los H2 con
+                herramientas para colocar títulos en las zonas de nuestra pagina: "Últimas noticias", "Contactame",
+                "Zona de usuario", "Paginas amigas", "Bienvenido a mi web"… son titulos genericos para bloques de una
+                web, pero que nada tienen que aportar al contenido. Ademas, de utilizar asi los titulares H2 es muy
+                probable que fueran los mismos de una pagina a otra del sitio, y al igual que ocurría con los H1 es
+                vital que sean diferentes, adaptados al contenido de cada documento. Los titulares H2 marcan las
+                diferentes secciones de un texto, los titulos de los nodos accesibles desde un listado de elementos,
+                etcetera. Su texto debe cumplir las mismas directrices que las dadas para el H1, pero sus palabras clave
+                deben hacer referencia al texto que encontramos justo a continuación, o en la pagina a la que enlazan.
+                No existe un numero determinado de elementos H2 que pueden colocarse en una pagina, pero el contenido
+                debe ser el que marque este requerimiento. Entre 2 y 8 titulares H2 son lo mas adecuado, aunque pueden
+                no aparecer o presentarse en un numero mayor si la longitud del texto lo requiere.
+            </p>
+
+            <h3 style="background-color:rgb(0, 162, 173)"> Etiqueta "h3"</h3>
+
+            <p>
+                Las etiquetas H3 en adelante nos permiten definir titulos de subapartados de un bloque encabezado con un
+                H2. Su incidencia en SEO es mas limitada, y por ello no es habitual ni recomendable el trabajar los
+                titulares a partir de H4. El orden lógico de los titulares deberia ser el que apareciera en primer lugar
+                el titular H1, despues todos los H2 y después todos los H3. También es habitual el trabajar con H1, H2 y
+                H3 como títulos de capitulo, apartados y epigrafes, de forma que aparezca primero el titular H1, después
+                un H2 con sus subapartados marcados con H3, despues otro H2 y sus subapartados, y asi sucesivamente.
+                Quitar todos los elementos restantes de tu sitio web y dejar sólo los titulares deberian en la mayoria
+                de los casos dar una idea del contenido de tu pagina, tal cual lo hace un indice en un libro: las
+                etiquetas de encabezado deben describir la estructura del articulo. La relacion entre titulares y texto
+                debe tener una proporcion razonable: intentar utilizar mas encabezados de la cuenta no es una ventaja,
+                sino un error que hara que la importancia que tratamos de dar a nuestras palabras clave acabe
+                completamente ignorada.
+            </p>
+
+            <h4 style="background-color:rgb(0, 162, 173)"> Etiqueta "h4" </h4>
+
+            <h5 style="background-color:rgb(0, 162, 173)"> Etiqueta "h5" </h5>
+
+            <h6 style="background-color:rgb(0, 162, 173)"> Etiqueta "h6" </h6>
+
+            <em style="background-color:rgb(0, 162, 173)"> Etiqueta a </em>
+            <!--define texto enfatizado-->
+
+            <p>
+                La etiqueta "a" es uno de los elementos más importantes del lenguaje HTML, esta etiqueta sirve para
+                convertir texto normal en hipertexto, es decir, sirve para crear enlaces (links). Con la etiqueta "a"
+                pueden realizarse enlaces hacia documentos externos de cualquier tipo, generalmente es usada para
+                definir enlaces hacia otras páginas web pero su uso es más amplio y no necesariamente se tiene que
+                realizar un enlace hacia un documento externo, pues la etiqueta: a permite realizar enlaces internos
+                dentro de un mismo documento, es decir, enlazar un texto hacia una parte especifica del mismo documento
+                que lo incluye y de este modo poder navegar dentro del documento.
+            </p>
+
+            <br>
+            <li>
+                <strong > <a href="http://bit.ly/2Tpkx2q" style="color: mediumblue"> no es tan dificil </strong> <!--define texto importante-->
+            </li>
+            <li>
+                <strong > <a href="http://bit.ly/2Z1oziB" style="color: mediumblue"> felicitaciones </strong>
+            </li>
+           
+            <br>
+            <br>
+        </div>
+    </div>
+    <footer style="background-color:olive ">
+        <div style="text-align:center">
+            <br>
+            UTN <sub>(Universidad Tecnologica Nacional)</sub>
+            <br>
+            <!-- define el pie de un documento o sección-->
+        </div>
+    </footer>
+
+</body>
+
+
+
+</html>
