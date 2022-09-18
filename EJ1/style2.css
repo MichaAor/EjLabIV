@@ -1,0 +1,49 @@
+*{
+    margin: 3px;
+    padding: 0;
+}
+
+.wrapper{
+    border: 1px solid black;
+    color: #000;
+    margin: 10px auto;
+    width: 100%;
+}
+
+header {
+    background: coral;
+    height: 5em;
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    height: 10em;
+  }
+  
+  aside {
+    background: lightgreen;
+    width: 30%;
+  }
+  
+  section {
+    background: lightblue;
+    width: 70%;
+  }
+  
+  footer {
+    background: lightgray;
+    height: 5em;
+    width: 100%;
+  }
+  
+  .center {
+    text-align: center;
+    line-height: 4em;
+    font-weight: bold;
+  }
+
+
+
+
+

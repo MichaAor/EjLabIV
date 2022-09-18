@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TP. 2</title>
+        <link rel="stylesheet" href="baseStyle.css">
+    </head>
+    <body>
+        <h1>Contact From</h1>
+        <form action="Ej3,2.php" method="post"> 
+            <h3><button class="buttonC"></button> Your basic info</h3>
+            
+
+            <p>Name <br><input type="text" name="name"></p>
+
+            <p>Email <br><input type="email" name="email"></label></p>
+
+            <p>Password <br><input type="password" name="pass"></label></p>
+
+            <p>Birthday <br><input type="date" name="birth"></p>
+
+            <p>Sex:
+                <input type="radio" name="sex" value="male">Male 
+                <input type="radio" name="sex" value="female">Female
+            </p>
+
+            <h3><button><p>2</p></button>Your profile</h3>
+            
+            <p>Role <br>
+                <select name="role">
+                    <option value="front">front</option>
+                    <option value="back">back</option>
+                    <option value="devops">devops</option>
+                    <option value="tl">tl</option>
+                    <option value="qa">qa</option>
+                </select>
+            </p>
+            
+            <p>Interests <br>
+            <input type="checkbox" name="a[]" value="Data Base"><label>Data Base</label>
+            <input type="checkbox" name="a[]" value="Design"><label>Design</label>
+            <input type="checkbox" name="a[]" value="Business"><label>Business</label>
+            <input type="checkbox" name="a[]" value="Unit Test"><label>Unit Test</><br>
+            <input type="checkbox" name="a[]" value="Cloud Development"><label>Cloud Development</>
+            <input type="checkbox" name="a[]" value="Web Development"><label>Web Development</label><br>
+            </p>
+
+          <button type="submit">Send</button>
+          <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>
