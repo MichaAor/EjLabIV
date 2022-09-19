@@ -1,6 +1,6 @@
-<?php namespace Model;
+<?php namespace model;
 
-use Model\Aerial as Aerial;
+use model\Aerial as Aerial;
 
 class Airplane extends Aerial{
 

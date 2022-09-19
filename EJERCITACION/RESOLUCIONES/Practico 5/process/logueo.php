@@ -14,7 +14,6 @@ $users[] = $user3;
 
 $loggedUser = NULL;
 if($_POST){
-	
 	foreach ($users as $key => $value) {
 		if($_POST['userName'] == $value->getUserName()){
 			if($_POST['password'] == $value->getPassword()){
@@ -23,6 +22,7 @@ if($_POST){
 		}
 	}
 }
+
 if($loggedUser != NULL){
 	session_start();
 	$_SESSION['loggedUser'] = $loggedUser;

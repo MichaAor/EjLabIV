@@ -1,6 +1,6 @@
-<?php namespace Model;
+<?php namespace model;
 
-use Model\Ship as Ship;
+use model\Ship as Ship;
 
 class BattleShip extends Ship{
 

@@ -1,6 +1,6 @@
-<?php namespace Model;
+<?php namespace model;
 
-use Model\Transport as Transport;
+use model\Transport as Transport;
 
 abstract class Aerial extends Transport{
 

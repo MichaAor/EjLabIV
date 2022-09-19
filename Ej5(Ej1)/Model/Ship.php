@@ -1,6 +1,6 @@
-<?php namespace Model;
+<?php namespace model;
 
-use Model\Maritime as Maritime;
+use model\Maritime as Maritime;
 
 abstract class Ship extends Maritime{
 

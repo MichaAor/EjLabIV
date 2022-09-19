@@ -1,4 +1,4 @@
-<?php namespace Model;
+<?php namespace model;
 
 abstract class Transport{
 
